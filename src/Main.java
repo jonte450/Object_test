@@ -3,9 +3,9 @@
 public class Main {
     //https://github.com/jonte450/Object_test/blob/master/src/Main.java
     public static void main(String[] args) {
-
+       MiniBank bank = new MiniBank();
+       bank.menu();
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("Hello World!!!!!!!!!!!");
         }
     }
