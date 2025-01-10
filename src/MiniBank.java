@@ -163,7 +163,7 @@ public class MiniBank {
         String choice_input = sc.nextLine();
         int choice;
         try {
-            choice = sc.nextLine();
+            choice = sc.nextInt();
         } catch (NumberFormatException e) {
             System.out.println("Ogiltig inmatning");
             return;
